@@ -1,0 +1,166 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    position: relative;
+    width: auto;
+    height: 860px;
+    left: -1px;
+    top: 0px;
+    background-image: url(NUOTR/Pazaislio-vienuolynas-A.Aleksandravicius-nuotr..jpg);
+    background-repeat: no-repeat;
+    background-size: 1349px 860px;
+    background-color: #979797;
+    font-family: 'Cardo', serif;
+    display: block;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-weight: 400;
+}
+
+/* navigacija*/
+
+.container {
+    position: relative;
+    max-width: auto;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.flex-container {
+    display: flex;
+    padding-top: 30px;
+}
+
+/* logotipas*/
+.logo {
+    position: absolute;
+left: 45%;
+right: 47.71%;
+top: 10.12%;
+bottom: 22.5%;
+    
+}
+
+/* juosta*/
+.regist {
+    position: absolute;
+    left: 91.67%;
+    right: 0%;
+    top: 0%;
+    bottom: 0;
+    background-color: #567E7A;
+    border: none;
+    color: white;
+    
+}
+
+.meniu {
+    border: none;
+    background: none;
+    position: absolute;
+    height: 26px;
+    left: 172px;
+    top: calc(50% - 26px/2);
+    color: #fff;
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.pgr {
+    border: none;
+    background: none;
+    height: 26px;
+    position: absolute;
+    right: 30.5%;
+    top: calc(50% - 26px/2);
+    color: #fff;
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+}
+.kont{border: none;
+    background: none;
+    height: 26px;
+    position: absolute;
+    right: 17.5%;
+    top: calc(50% - 26px/2);
+    color: #fff;
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+
+}
+
+
+.main-nav li {
+    list-style: none;
+    
+}
+  
+/*pgr pavad */
+
+.mon{
+position: absolute;
+width:1349px;
+height: 135px;
+left: 580px;
+top: 300px;
+text-transform: capitalize;
+color: white;
+}
+.svet{
+    position: absolute;
+height: 32px;
+left: 500px;
+right: 0.55%;
+top: calc(45% - 32px/2);
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 32px;
+color: white;
+}
+
+.monas{
+    position: absolute;
+height: 26px;
+left:600px;
+right: 0%;
+top: calc(50% - 26px/2);
+font-family: 'Cardo';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 26px;
+color: white;
+text-transform: uppercase;
+}
+/* mes*/
+div{
+    
+}
+.service{
+    display: flex;
+   
+    background-color: #D8D8D8;
+    font-family: 'Cardo';
+font-style: normal;
+color: #fff;
+
+    
+}
+h2{
+    text-transform:uppercase ;
+}
